@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aerofood ACS - Visi, Misi & Integritas</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: { primary: "#003366", secondary: "#FF9900" },
+            borderRadius: {
+              none: "0px",
+              sm: "4px",
+              DEFAULT: "8px",
+              md: "12px",
+              lg: "16px",
+              xl: "20px",
+              "2xl": "24px",
+              "3xl": "32px",
+              full: "9999px",
+              button: "8px",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+    />
+    <style>
+      :where([class^="ri-"])::before { content: "\f3c2"; }
+      body {
+      font-family: 'Open Sans', sans-serif;
+      }
+      h1, h2, h3, h4, h5, h6 {
+      font-family: 'Montserrat', sans-serif;
+      }
+      .hero-section {
+      background-image: linear-gradient(to right, rgba(0, 51, 102, 0.9), rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.5), rgba(0, 51, 102, 0.3), rgba(0, 51, 102, 0.1), rgba(0, 0, 0, 0)), url('https://assets.kompasiana.com/items/album/2024/12/18/gedung-acs-6762708e34777c2d4d63eba2.jpg?t=o&v=770');
+      background-size: cover;
+      background-position: center;
+      }
+      .cta-section {
+      background-image: linear-gradient(to right, rgba(0, 51, 102, 0.9), rgba(0, 51, 102, 0.8)), url('https://th.bing.com/th/id/OIP.kJS7oCjD2ByI3yaNKweVqAHaEK?w=333&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+      background-size: cover;
+      background-position: center;
+      }
+      .value-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+      }
+      .mission-item:hover {
+      background-color: rgba(0, 51, 102, 0.05);
+      }
+    </style>
+  </head>
+  <body class="bg-white">
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
+      <div
+        class="container mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <div class="flex items-center">
+          <h1 class="text-primary text-3xl font-['Pacifico'] font-bold">
+            Aerofood ACS
+          </h1>
+        </div>
+        <nav class="hidden md:flex space-x-8">
+          <a
+            href="#"
+            class="text-gray-700 hover:text-primary font-medium transition-colors"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="text-gray-700 hover:text-primary font-medium transition-colors"
+            >Tentang Kami</a
+          >
+          <a
+            href="#"
+            class="text-gray-700 hover:text-primary font-medium transition-colors"
+            >Layanan</a
+          >
+          <a href="#" class="text-primary font-semibold transition-colors"
+            >Visi & Misi</a
+          >
+          <a
+            href="#"
+            class="text-gray-700 hover:text-primary font-medium transition-colors"
+            >Nilai Perusahaan</a
+          >
+          <a
+            href="#"
+            class="text-gray-700 hover:text-primary font-medium transition-colors"
+            >Kontak</a
+          >
+        </nav>
+        <div class="md:hidden w-10 h-10 flex items-center justify-center">
+          <i class="ri-menu-line ri-2x text-primary"></i>
+        </div>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero-section min-h-[600px] flex items-center pt-24">
+      <div class="container mx-auto px-6 py-20 w-full">
+        <div class="max-w-2xl">
+          <h2
+            class="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight"
+          >
+            Dedikasi Menuju Pelayanan Makanan Berkualitas Dunia
+          </h2>
+          <p class="text-xl text-white opacity-90 mb-8">
+            Melayani dengan visi, dipandu oleh misi, dijalankan dengan
+            integritas.
+          </p>
+          <a
+            href="#visi"
+            class="bg-secondary text-white px-8 py-3 font-semibold !rounded-button hover:bg-opacity-90 transition-colors whitespace-nowrap inline-block"
+            >Pelajari Lebih Lanjut</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Vision Section -->
+    <section id="visi" class="py-20 bg-gray-50">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-bold text-primary mb-4">Visi Kami</h2>
+          <div class="w-20 h-1 bg-secondary mx-auto"></div>
+        </div>
+        <div class="max-w-3xl mx-auto bg-white p-10 rounded shadow-lg">
+          <p class="text-xl text-center leading-relaxed text-gray-700">
+            "Menjadi penyedia layanan katering dan layanan penunjang penerbangan
+            terkemuka yang terpercaya dan berkualitas tinggi di tingkat regional
+            dan global."
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Mission Section -->
+    <section class="py-20">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-bold text-primary mb-4">Misi Kami</h2>
+          <div class="w-20 h-1 bg-secondary mx-auto"></div>
+        </div>
+        <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          <div
+            class="mission-item p-6 rounded transition-all duration-300 flex items-start"
+          >
+            <div
+              class="w-12 h-12 flex items-center justify-center bg-primary text-white rounded-full mr-4 flex-shrink-0"
+            >
+              <i class="ri-shield-check-line ri-lg"></i>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-gray-800 mb-2">
+                Standar Kualitas Tertinggi
+              </h3>
+              <p class="text-gray-600">
+                Menyediakan layanan makanan dan minuman dengan standar keamanan
+                dan kualitas tertinggi.
+              </p>
+            </div>
+          </div>
+          <div
+            class="mission-item p-6 rounded transition-all duration-300 flex items-start"
+          >
+            <div
+              class="w-12 h-12 flex items-center justify-center bg-primary text-white rounded-full mr-4 flex-shrink-0"
+            >
+              <i class="ri-lightbulb-line ri-lg"></i>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-gray-800 mb-2">
+                Inovasi Berkelanjutan
+              </h3>
+              <p class="text-gray-600">
+                Memberikan nilai tambah kepada pelanggan melalui inovasi dan
+                layanan terbaik.
+              </p>
+            </div>
+          </div>
+          <div
+            class="mission-item p-6 rounded transition-all duration-300 flex items-start"
+          >
+            <div
+              class="w-12 h-12 flex items-center justify-center bg-primary text-white rounded-full mr-4 flex-shrink-0"
+            >
+              <i class="ri-team-line ri-lg"></i>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-gray-800 mb-2">
+                Pengembangan SDM
+              </h3>
+              <p class="text-gray-600">
+                Membangun sumber daya manusia yang profesional dan
+                berintegritas.
+              </p>
+            </div>
+          </div>
+          <div
+            class="mission-item p-6 rounded transition-all duration-300 flex items-start"
+          >
+            <div
+              class="w-12 h-12 flex items-center justify-center bg-primary text-white rounded-full mr-4 flex-shrink-0"
+            >
+              <i class="ri-recycle-line ri-lg"></i>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-gray-800 mb-2">
+                Keberlanjutan
+              </h3>
+              <p class="text-gray-600">
+                Mendukung keberlanjutan melalui praktik bisnis yang bertanggung
+                jawab.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Values Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-bold text-primary mb-4">Nilai Utama Kami</h2>
+          <div class="w-20 h-1 bg-secondary mx-auto mb-6"></div>
+          <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+            Nilai-nilai kami membentuk dasar dari semua keputusan dan tindakan
+            kami dalam melayani pelanggan.
+          </p>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div
+            class="value-card bg-white p-8 rounded shadow-md transition-all duration-300"
+          >
+            <div
+              class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 text-primary rounded-full mb-6 mx-auto"
+            >
+              <i class="ri-heart-line ri-xl"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-center text-gray-800 mb-4">
+              Integritas
+            </h3>
+            <p class="text-gray-600 text-center">
+              Kami menjunjung tinggi kejujuran, transparansi, dan tanggung jawab
+              dalam setiap aspek bisnis kami.
+            </p>
+          </div>
+          <div
+            class="value-card bg-white p-8 rounded shadow-md transition-all duration-300"
+          >
+            <div
+              class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 text-primary rounded-full mb-6 mx-auto"
+            >
+              <i class="ri-award-line ri-xl"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-center text-gray-800 mb-4">
+              Profesionalisme
+            </h3>
+            <p class="text-gray-600 text-center">
+              Kami berkomitmen untuk memberikan layanan dengan standar tertinggi
+              dan keahlian yang tak tertandingi.
+            </p>
+          </div>
+          <div
+            class="value-card bg-white p-8 rounded shadow-md transition-all duration-300"
+          >
+            <div
+              class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 text-primary rounded-full mb-6 mx-auto"
+            >
+              <i class="ri-lightbulb-flash-line ri-xl"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-center text-gray-800 mb-4">
+              Inovasi
+            </h3>
+            <p class="text-gray-600 text-center">
+              Kami terus mencari cara baru dan lebih baik untuk meningkatkan
+              pengalaman kuliner di udara.
+            </p>
+          </div>
+          <div
+            class="value-card bg-white p-8 rounded shadow-md transition-all duration-300"
+          >
+            <div
+              class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 text-primary rounded-full mb-6 mx-auto"
+            >
+              <i class="ri-customer-service-2-line ri-xl"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-center text-gray-800 mb-4">
+              Kepuasan Pelanggan
+            </h3>
+            <p class="text-gray-600 text-center">
+              Kami mengutamakan kebutuhan pelanggan dan berusaha melebihi
+              harapan mereka setiap saat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Integrity Focus Section -->
+    <section class="py-20">
+      <div class="container mx-auto px-6">
+        <div class="flex flex-col md:flex-row items-center gap-12">
+          <div class="md:w-1/2">
+            <img
+              src="doku 1.jpg.jpg"
+              alt="Tim Aerofood ACS"
+              class="rounded-lg shadow-xl w-full h-auto object-cover"
+            />
+          </div>
+          <div class="md:w-1/2">
+            <h2 class="text-3xl font-bold text-primary mb-6">
+              Integritas: Fondasi Kami
+            </h2>
+            <p class="text-gray-700 text-lg mb-6 leading-relaxed">
+              Integritas adalah fondasi dari semua tindakan kami. Kami
+              menjunjung tinggi kejujuran, transparansi, dan tanggung jawab
+              dalam setiap aspek bisnis kami – mulai dari dapur hingga ke kabin
+              pesawat.
+            </p>
+            <p class="text-gray-700 text-lg mb-8 leading-relaxed">
+              Di Aerofood ACS, kami percaya bahwa makanan yang berkualitas
+              dimulai dengan komitmen yang tak tergoyahkan terhadap standar
+              tertinggi. Setiap hidangan yang kami siapkan mencerminkan dedikasi
+              kami terhadap keunggulan dan integritas.
+            </p>
+            <button
+              class="bg-primary text-white px-8 py-3 font-semibold !rounded-button hover:bg-opacity-90 transition-colors whitespace-nowrap"
+            >
+              Tentang Nilai Kami
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CTA Section -->
+    <section class="cta-section py-20 text-white">
+      <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6">
+          Bersama kami, ciptakan pengalaman kuliner terbaik di udara.
+        </h2>
+        <p class="text-xl opacity-90 mb-10 max-w-3xl mx-auto">
+          Jadilah bagian dari perjalanan kami dalam menyediakan layanan katering
+          penerbangan berkualitas tinggi yang memenuhi standar global.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <button
+            class="bg-white text-primary px-8 py-3 font-semibold !rounded-button hover:bg-opacity-90 transition-colors whitespace-nowrap"
+          >
+            Tentang Aerofood ACS
+          </button>
+          <button
+            class="bg-secondary text-white px-8 py-3 font-semibold !rounded-button hover:bg-opacity-90 transition-colors whitespace-nowrap"
+          >
+            Layanan Kami
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16">
+      <div class="container mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+          <div>
+            <h3 class="text-xl font-bold mb-6">Aerofood ACS</h3>
+            <p class="text-gray-400 mb-6">
+              Penyedia layanan katering penerbangan terkemuka dengan komitmen
+              terhadap kualitas dan keamanan pangan.
+            </p>
+            <div class="flex space-x-4">
+              <a
+                href="#"
+                class="w-10 h-10 flex items-center justify-center bg-primary rounded-full hover:bg-opacity-80 transition-colors"
+              >
+                <i class="ri-facebook-fill ri-lg"></i>
+              </a>
+              <a
+                href="#"
+                class="w-10 h-10 flex items-center justify-center bg-primary rounded-full hover:bg-opacity-80 transition-colors"
+              >
+                <i class="ri-twitter-fill ri-lg"></i>
+              </a>
+              <a
+                href="#"
+                class="w-10 h-10 flex items-center justify-center bg-primary rounded-full hover:bg-opacity-80 transition-colors"
+              >
+                <i class="ri-instagram-fill ri-lg"></i>
+              </a>
+              <a
+                href="#"
+                class="w-10 h-10 flex items-center justify-center bg-primary rounded-full hover:bg-opacity-80 transition-colors"
+              >
+                <i class="ri-linkedin-fill ri-lg"></i>
+              </a>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-6">Tautan Cepat</h3>
+            <ul class="space-y-3">
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Tentang Kami</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Layanan</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Visi & Misi</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Nilai Perusahaan</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Kontak</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-6">Layanan</h3>
+            <ul class="space-y-3">
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Katering Penerbangan</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Layanan Kabin</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Manajemen Lounge</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Katering Industrial</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Retail F&B</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-6">Kontak</h3>
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <div
+                  class="w-6 h-6 flex items-center justify-center text-secondary mr-3 flex-shrink-0"
+                >
+                  <i class="ri-map-pin-line"></i>
+                </div>
+                <span class="text-gray-400"
+                  >Jl. Raya Bandara Juanda 61253 Semampir Jawa Timur</span
+                >
+              </li>
+              <li class="flex items-center">
+                <div
+                  class="w-6 h-6 flex items-center justify-center text-secondary mr-3 flex-shrink-0"
+                >
+                  <i class="ri-phone-line"></i>
+                </div>
+                <span class="text-gray-400">+62 822 455 082 48</span>
+              </li>
+              <li class="flex items-center">
+                <div
+                  class="w-6 h-6 flex items-center justify-center text-secondary mr-3 flex-shrink-0"
+                >
+                  <i class="ri-mail-line"></i>
+                </div>
+                <span class="text-gray-400">info@aerofood.co.id</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center"
+        >
+          <p class="text-gray-500 text-sm mb-4 md:mb-0">
+            &copy; @alfatihbdllh.
+          </p>
+          <div class="flex space-x-6">
+            <a
+              href="#"
+              class="text-gray-500 text-sm hover:text-white transition-colors"
+              >Kebijakan Privasi</a
+            >
+            <a
+              href="#"
+              class="text-gray-500 text-sm hover:text-white transition-colors"
+              >Syarat & Ketentuan</a
+            >
+            <a
+              href="#"
+              class="text-gray-500 text-sm hover:text-white transition-colors"
+              >Peta Situs</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Mobile menu toggle
+        const menuButton = document.querySelector(".ri-menu-line");
+        if (menuButton) {
+          menuButton.addEventListener("click", function () {
+            // Mobile menu implementation would go here
+            alert("Menu mobile akan ditampilkan di sini");
+          });
+        }
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+          anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute("href");
+            if (targetId !== "#") {
+              document.querySelector(targetId).scrollIntoView({
+                behavior: "smooth",
+              });
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
+
+8
